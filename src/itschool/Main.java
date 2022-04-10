@@ -26,7 +26,7 @@ public class Main
 // Вывести строку, содержащую эти же слова, разделенные одним пробелом и расположенные в обратном порядке.
 
     private static	void task50(){
-        String s = "Max Danya Jenya Gwem" + " Ben Ken Alex Jenny";
+         String s = " Макс Даня Женя Гвен" + " Бен Кен Алекс Дженни";
         List<String> words = Arrays.asList(s.split(" "));
         Collections.reverse(words);
         System.out.println(String.join(" ", words));
